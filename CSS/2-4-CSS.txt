@@ -1,0 +1,21 @@
+_ Aula 2
+
+CSS (Cascade Style Sheets - Folha de Estilo em Cascatas).
+
+Linguagem que define o estilo de um documento HTML, ele não deve ser definido 
+  em um documento HTML.
+
+O Seletor aponta para o elemento HTML a ser estilizada, por exemplo de tags: header, footer,
+  etc. Como é declarado exemplo: header { color: red;}, sempre com uma propriedade e
+  seu valor.
+
+_ Aula 4
+
+As cores pode ser especificadas pelas seguintes formas:
+  Nome, Valores RGB, Valores Hexadecimais, Valores HSL (CSS3) e Valores HWB (CSS4).
+
+Cor Hexadecimais é definida por conjunto de 06 símbolos.
+
+_Aula 4
+
+backgroond define a cor de fundo.
