@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Montserrat:ital,wght@0,400;1,300&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Poppins&family=Rubik+Iso&display=swap');
+
+#text1{
+  font-family: Poppins, Arial, sans-serif;
+}
+#text2{
+  font-family: Montserrat;
+}
+#text3{
+  font-family: Rubik iso;
+  font-size: 100px;
+}

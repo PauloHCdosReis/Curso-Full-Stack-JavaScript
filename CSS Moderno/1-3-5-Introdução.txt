@@ -1,0 +1,22 @@
+_Aula 01
+
+CSS Moderno Responsividade
+  Responsividade é a mudificação do layout para diferentes tamanhos de telas.
+  FlexBox
+  Grid é um organizador de layout.
+
+_Aula 03
+@media é uma regra em CSS que permite definir estilos diferentes para diferentes 
+  dispositivos e tamanhos de tela. Com @media, é possível especificar condições em 
+  que um conjunto específico de estilos deve ser aplicado, com base em coisas como o 
+  tamanho da tela, orientação, densidade de pixel e outras características do 
+  dispositivo em questão.
+
+_Aula 5
+O que é: O flexbox é um método de organização de layout. Com ele, você manipula itens 
+  dentro de um container de forma dinâmica, ou seja, independente do tamanho do 
+  container, os itens vão estar se adaptando a ele.
+  Para que serve: As aplicações que criamos, elas são acessadas de vários dispositivos. 
+  E como foi dito, o flexbox vai organizar o container de acordo com o tamanho do 
+  dispositivo. Com isso, nós podemos fazer diversas manipulações de forma automática 
+  para vários dispositivos.

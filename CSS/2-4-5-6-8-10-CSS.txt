@@ -1,0 +1,101 @@
+_ Aula 2
+
+CSS (Cascade Style Sheets - Folha de Estilo em Cascatas).
+
+Linguagem que define o estilo de um documento HTML, ele não deve ser definido 
+  em um documento HTML.
+
+O Seletor aponta para o elemento HTML a ser estilizada, por exemplo de tags: header, footer,
+  etc. Como é declarado exemplo: header { color: red;}, sempre com uma propriedade e
+  seu valor.
+
+_ Aula 4
+
+As cores pode ser especificadas pelas seguintes formas:
+  Nome, Valores RGB, Valores Hexadecimais, Valores HSL (CSS3) e Valores HWB (CSS4).
+
+Cor Hexadecimais é definida por conjunto de 06 símbolos.
+
+_Aula 5
+
+background define a cor de fundo do elemento. (background-color).
+
+background-image coloca uma imagem como fundo em vez de uma cor.
+
+background-repeat faz com que ele repita de acordo com o que vc defina, exemplo,
+  background-repeat: no-repeat.
+
+background-size para reajustar, exemplo: background-size: cover (capa).
+
+Border define o estilo, largura e cor da borda do elemento, exemplos:
+  border-color: red;  (define a cor)
+  border-width: 8px; (define a largura)
+  border-style: dashed; (define o estilo)
+  ou pode definir tudo de uma vez por exemplo:
+  border: 2px dashed red;
+
+_Aula 6
+
+Para selecionar uma classe no css é sempre pelo . 
+  exemplo:
+  .nomedaclasse{ color:red; }
+
+Para selecionar um id no css é pelo # 
+  exemplo:
+  #nomedoid{ color:red; }
+
+_Aula 8
+
+Seletor * (estrela): esse seletor, seleciona todos os elementos, por exemplo:
+  *{
+  border: 2px solid;
+  }
+
+Seletor descendência todos elementos dentro de outro elemento terá sua modificação,
+  exemplo:
+  table th{ color:red; } (todos th dentro de table terá sua modificação)
+
+Selector filho, exemplo
+  li > a { color:red } 
+  todos filhos de li com a tag a serão vermelho, outro exemplo que não entrará esse
+  seletor:
+  <li>
+    <div>
+      <a>teste
+    <div>
+  </li>
+  nesse exemplo acima não em caixa o seletor filho pq a tag a e filho da div e não
+  do li 
+
+Selector Adjacentes, h1 + h2{}, quer dizer que todo h2 que segue imediatamente
+  o elemento h1 receberá a modificação.
+
+Seletor de Atributo, exemplo: a[href='/recibo'] { color: red;}
+  href:./recibo
+  href:./resto
+  href:./recibo
+  href:./resultado
+  Todos href:recibo vai receber a modificação
+
+Seletor .... , li:nth-of-type(odd ou 2 ou qualquer outro){ color: red }
+
+_Aula 10
+
+Herança:
+  'Inherit', exemplo:
+  div{ border: 2px solid; };
+  div ul { border: 2px solid; };
+  ou com o comando:
+  div{ border: 2px solid; };
+  div ul { inherit; }
+
+_Aula 13
+
+font-weight: aumenta ou diminui a grossura da letra.
+line-height: espaço entre as linhas por exemplo no mesmo paragrafo.
+text-align: alinha o texto, por exemplo no centro.
+text-decoration: é para decorar o texto.
+
+_Aula 15
+
+margin: muda o tamalho da margem;
