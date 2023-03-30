@@ -21,5 +21,8 @@ do{
     case '3':
       alert("Encerrando sessão")
     break
+    default:
+      alert("Opção Inválida")
+      break
   }
 }while (escolha !== '3')
