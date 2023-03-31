@@ -13,11 +13,21 @@ do{
           nomePropriedade: prompt("Qual o nome do proprietário?"),
           quartos: prompt("Quantos quartos tem o imóvel?"),
           banheiros: prompt("Quantos banheiros tem o imóvel?"),
-          garagem: confirm("Tem garagem o imóvel?")
+          garagem: confirm("Tem garagem o imóvel?")?'Sim':'Não'
         }
-        imoveis.push(imovel)
-        alert('Imóvel cadastrado com sucesso!')
-        quantidadeImoveis++
+        const confirmacao = confirm("Salvar este imóvel?\n"+
+        '\nProprietário: ' + imovel.nomePropriedade+
+        '\nQuartos: ' + imovel.quartos +
+        '\nBanheiros: ' + imovel.banheiros +
+        '\nPossui garagem? ' + imovel.garagem)
+
+        if (confirmacao){
+          imoveis.push(imovel)
+          alert('Imóvel salvo com sucesso!')
+          quantidadeImoveis++
+        }else{
+          alert('Voltando para o menu!')
+        }
       break
     case '2':
       let stringdosimoveis = ''
